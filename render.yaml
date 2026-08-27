@@ -1,0 +1,14 @@
+{
+  "name": "discord-shop-bot-v4",
+  "version": "4.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {"start":"node src/index.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}
